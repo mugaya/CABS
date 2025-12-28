@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox spacing="15" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+ fx:controller="com.clinic.controllers.PatientController" stylesheets="@style.css">
+
+    <Label text="Patient Dashboard" styleClass="label-title"/>
+
+    <HBox spacing="20">
+
+        <VBox spacing="10">
+            <Label text="Doctors"/>
+            <ListView fx:id="doctorList" prefHeight="250"/>
+        </VBox>
+
+        <VBox spacing="10">
+            <Label text="Pick Date"/>
+            <DatePicker fx:id="datePicker"/>
+
+            <Label text="Time Slots"/>
+            <ListView fx:id="slotList" prefHeight="250"/>
+
+            <Button text="Book Appointment" onAction="#book"/>
+        </VBox>
+
+        <VBox spacing="15">
+            <Label text="Appointments"/>
+            <ListView fx:id="appointmentList" prefHeight="260" prefWidth="300"/>
+            <Label text="To reschedule an appointment cancel the existing first."/>
+            <Button text="Cancel Appointment" onAction="#cancel"/>
+        </VBox>
+    </HBox>
+
+    <Label text="Newton Mugaya Adiego (A2508D20031230)" styleClass="label-footer"/>
+
+</VBox>

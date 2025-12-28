@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<VBox spacing="15" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+ fx:controller="com.clinic.controllers.AdminController" stylesheets="@style.css">
+
+    <Label text="Admin Dashboard" styleClass="label-title"/>
+
+    <ListView fx:id="doctorList" prefHeight="250"/>
+
+    <HBox spacing="10">
+        <TextField fx:id="doctorName" promptText="Doctor Name"/>
+        <Button text="Add" onAction="#addDoctor"/>
+        <Button text="Remove" onAction="#removeDoctor"/>
+    </HBox>
+
+    <Label text="Newton Mugaya Adiego (A2508D20031230)" styleClass="label-footer"/>
+</VBox>
