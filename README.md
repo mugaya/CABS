@@ -2,7 +2,7 @@
 Clinic Appointment Booking System (CABS) to manage patient bookings.
 
 ## Technology stack
-Java - 25
+Java - 25\
 Openjfx - 21
 
 
@@ -29,7 +29,7 @@ git clone https://github.com/mugaya/CABS.git
 
 
 cd CABS\
-mvn javafx:run\
+mvn javafx:run
 
 Default admin credentials\
 Username : admin\
