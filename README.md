@@ -8,12 +8,13 @@ Java - 21
 ## Functionality
 ### Admins
 Register and log in\
-View all available appointment slots\
-Book, reschedule or cancel appointments
+Manage doctor availability - add and remove doctors
+
 
 ### Patients
 Register and log in\
-Manage doctor availability - add and remove doctors
+View all available appointment slots\
+Book, reschedule or cancel appointments
 
 ## Installation
 
