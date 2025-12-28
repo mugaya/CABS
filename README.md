@@ -17,7 +17,7 @@ Manage doctor availability - add and remove doctors
 
 ## Installation
 
-https://github.com/mugaya/CABS.git\
-
+git clone https://github.com/mugaya/CABS.git
+cd CABS
 
 mvn javafx:run
